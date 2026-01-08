@@ -1,12 +1,37 @@
-/*
-  Специально для светлой темы при наличии класса.
-  Здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
 
 :root.theme-light {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+  --cover-image: url('../images/cover-image-light.png');
+  --bg-color: #353430;
+  --text-color: #353430;
+  --accent-color:#353430;
+  --title-color: #FFC2E6;
+   --color-menu:#353430;
+  --title-shadow-color: #FF8DCB;
+  --title-decor-bg: #FF8DCB;
+  --button-hover-border: #32312D66 (255, 0, 112, 0.4);
+  --logo-shadow: 4px 4px 0 #FF8DCB;
+  --accent-color-text-block:#FF8DCB;
+  --color-text-block:#353430;
+  --bg-color-content:#FFF1F7;
+}
+
+:root.theme-light .header__rec {
+  display: none;
+}
+
+@media (prefers-color-scheme: light) {
+  :root.theme-auto {
+  --cover-image: url('../images/cover-image-light.png');
+  --bg-color: #353430;
+  --text-color: #353430;
+  --accent-color:#353430;
+  --title-color: #FFC2E6;
+   --color-menu:#353430;
+  --title-shadow-color: #FF8DCB;
+  --title-decor-bg: #FF8DCB;
+  --button-hover-border: #32312D66 (255, 0, 112, 0.4);
+  --logo-shadow: 4px 4px 0 #FF8DCB;
+  --accent-color-text-block:#FF8DCB;
+  --color-text-block:#353430;
+  }
 }
