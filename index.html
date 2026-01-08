@@ -11,40 +11,40 @@
 <link rel="stylesheet" href="./styles/style.css">
 <link rel="stylesheet" href="./styles/dark.css">
 <link rel="stylesheet" href="./styles/light.css">
-    <link rel="icon" href="favicon.ico" sizes="any">
-  <link rel="icon" href="icon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="apple-touch-icon.png">
-    <script src="./scripts/script.js"></script>
-  </head>
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<script src="./scripts/script.js" defer></script>
+</head>
   <body class="page">
-      <header class="header decorated-zone">
-        <h1 class="header__logo">no focus</h1>
-        <p class="header__text">Что делать, когда не можешь делать ничего<br>Или почему нам так сложно сконцентрироваться, особенно когда очень надо</p>
-        <span class="header__rec" aria-hidden="true">REC</span> 
-        <span class="decorative-corner-top-right" aria-hidden="true"></span>
-  <span class="decorative-corner-bottom-left" aria-hidden="true"></span>
+    <header class="header decorated-zone">
+      <h1 class="header__logo">no focus</h1>
+      <p class="header__text">Что делать, когда не можешь делать ничего<br>Или почему нам так сложно сконцентрироваться, особенно когда очень надо</p>
+      <span class="header__rec" aria-hidden="true">REC</span> 
+      <span class="decorative-corner-top-right" aria-hidden="true"></span>
+      <span class="decorative-corner-bottom-left" aria-hidden="true"></span>
       <nav class="header__theme-menu" aria-label="Theme switcher">
-        <ul class="header__theme-menu-list">
+      <ul class="header__theme-menu-list">
+      <li class="header__theme-menu-item">
+        <button
+          class="header__theme-menu-button header__theme-menu-button_type_light"
+          >
+          День
+          </button>
+          </li>
           <li class="header__theme-menu-item">
-            <button
-              class="header__theme-menu-button header__theme-menu-button_type_light"
+          <button
+          class="header__theme-menu-button header__theme-menu-button_active header__theme-menu-button_type_auto"
+          disabled
             >
-              День
+            Авто
             </button>
           </li>
           <li class="header__theme-menu-item">
             <button
-              class="header__theme-menu-button header__theme-menu-button_active header__theme-menu-button_type_auto"
-              disabled
+            class="header__theme-menu-button header__theme-menu-button_type_dark"
             >
-              Авто
-            </button>
-          </li>
-          <li class="header__theme-menu-item">
-            <button
-              class="header__theme-menu-button header__theme-menu-button_type_dark"
-            >
-              Неон
+            Неон
             </button>
           </li>
         </ul>
@@ -91,32 +91,30 @@
     </article>
   </div>
 </section>
-  <section class="advices_content-section">
+<section class="advices_content-section">
     <h2 class="content-section_title_advices">Как концентрироваться лучше, чем золотая рыбка (то есть дольше трёх секунд)</h2>
      <div class="text-blocks_advices">
       <article class="text-block_advices">
     <h3 class="text-block__heading_title-decor_advices">5 простых (на самом деле не очень) советов</h3>
-    <div class="text-block__main-content_advices"></div>
-    <h4 class="content_subheading">Представьте небо и облака</h4>
-    <p class="text-block__paragraph_advices">Или листья в ручье. Тут дело в лёгкой медитации, которая помогает успокоиться. Ведь часто именно тревожные мысли о сложных задачах как раз и мешают эти сложные задачи делать. В такие моменты можно закрыть глаза и представить, что чистое небо — это вы, а облака — тревожные мысли. И сколько бы их ни было — ясное небо всегда будет где-то там, за тучами, и никуда не денется. Это упражнение поможет вернуться в настоящий момент, а не волноваться о потенциальных проблемах из будущего.</p>
-  <h4 class="content_subheading">Включите музыку</h4>
-<p class="text-block__paragraph_advices">Но не любую, и не любимую. Любимая может быть связана с сильными положительными эмоциями, которые тоже очень сильно отвлекают. Подойдёт тихая, спокойная, умеренно-ритмичная. Можно вообще попробовать включить плейлист с «белым шумом» или нейромузыкой.</p>
-<h4 class="content_subheading">Прогуляйтесь</h4>  
-<p class="text-block__paragraph_advices">Или даже пробегитесь. Лучше найти парк или лес: один эксперимент показал, что созерцание природы повышает концентрацию, в то время как после просмотра городских пейзажей она наоборот понижается. Можно совместить прогулку с физическими упражнениями или бегом — так в мозг поступит ещё больше кислорода и он будет лучше работать. Но и простая двадцатиминутная прогулка — тоже отличный вариант.</p> <!-- Удалено "показал" -->
-<h4 class="content_subheading">Хорошо ешьте</h4>
-<p class="text-block__paragraph_advices">Мы — не ваша бабушка, но это правда важно. Выбирайте продукты, которые препятствуют резким скачкам сахара в крови. Например, с высоким содержанием клетчатки: овощи, ягоды, бобовые (нут, чечевица, фасоль), коричневый рис, хлеб из цельнозерновой пшеницы.</p>
-<h4 class="content_subheading">Читайте</h4>
-<p class="text-block__paragraph_advices">Настоящие бумажные книги. Это правда помогает с концентрацией: чтобы прочитать пост в соцсети, достаточно нескольких минут или даже секунд. А вот интересная книга способна затянуть и на несколько часов и круто тренирует направленное внимание.</p> <!-- Исправлено название класса и закрыт тег -->
-  </div>
-      </article>
-    </div>
+        <div class="text-block__main-content_advices">
+          <h4 class="content_subheading">Представьте небо и облака</h4>
+          <p class="text-block__paragraph_advices">Когда ловите себя на отвлечении, представьте своё сознание в виде ясного неба, а мысли — облаков. Они проплывают мимо, не цепляясь за них. Просто наблюдайте. <strong>Не пытайтесь прекратить думать</strong> — это только усугубляет проблему. Наблюдайте, как мысли приходят и уходят. Наблюдение за процессом мышления отрывает вас от самих этих мыслей.</p>
+          <h4 class="content_subheading">Двигайтесь</h4>
+          <p class="text-block__paragraph_advices">С физическими упражнениями или бегом — так в мозг поступит ещё больше кислорода и он будет лучше работать. Но и простая двадцатиминутная прогулка — тоже отличный вариант.</p>
+          <h4 class="content_subheading">Хорошо ешьте</h4>
+          <p class="text-block__paragraph_advices">Мы — не ваша бабушка, но это правда важно. Выбирайте продукты, которые препятствуют резким скачкам сахара в крови. Например, с высоким содержанием клетчатки: овощи, ягоды, бобовые (нут, чечевица, фасоль), коричневый рис, хлеб из цельнозерновой пшеницы.</p>
+          <h4 class="content_subheading">Читайте</h4>
+          <p class="text-block__paragraph_advices">Настоящие бумажные книги. Это правда помогает с концентрацией: чтобы прочитать пост в соцсети, достаточно нескольких минут или даже секунд. А вот интересная книга способна затянуть и на несколько часов и круто тренирует направленное внимание.</p> 
+        </div> 
+      </article> 
+    </div> 
   </section>
 <section class="image_content-section">
     <h2 class="content-section_title_image">А можно в картинках?</h2>
     <div class="gallery-items">
      <img src="../images/sunset.png" alt="Закат" class="gallery-item">
     <img src="../images/ice-cream.png" alt="Мороженое" class="gallery-item">
-    <img src="../images/tape.png" alt="Касета" class="gallery-item">
+    <img src="../images/tape.png" alt="Касcета" class="gallery-item">
     <img src="../images/books.png" alt="Книги" class="gallery-item">
     <img src="../images/street.png" alt="Улица" class="gallery-item">
   </div>
