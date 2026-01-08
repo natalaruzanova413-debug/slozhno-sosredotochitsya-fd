@@ -90,6 +90,7 @@
 .advices_content-section {
   margin-bottom:50px;
 }
+
 .text-block__heading_title-decor_why,
 .text-block__heading_title-decor_causes,
 .text-block__heading_title-decor_advices,
@@ -150,17 +151,24 @@
   margin-top: -9px;
 }
 
-.text-blocks_advices {
-
+.text-block__main-content_advices {
+  margin-top:-3px;
 }
+
 .content-section_title_advices {
   margin-top: 50px;
 }
 
+.content-section_title_image {
+  margin-bottom: 10px;
+}
 .text-block__paragraph_advices {
-  margin-top: 6px;
+  margin-top: 9px;
 }
 
+.image_content-section {
+  margin-bottom:40px;
+}
 .decorative-corner-bottom-left {
   position: absolute;
   bottom: 10px;
@@ -223,14 +231,15 @@
 }
 
 .content {
-  padding: 2.77%;
+  padding: 10px;
+  padding-bottom:
   background-image: var(--bg-color-content);
 }
 
 .gallery-items {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 10px;
   width: 100%;
 }
 
