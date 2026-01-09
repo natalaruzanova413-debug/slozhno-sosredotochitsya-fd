@@ -14,5 +14,8 @@
   --logo-shadow: 4px 4px 0 #FF0070;
   --accent-color-text-block:#FF0070;
   --color-text-block:#000028;
-   --bg-color-content: #000028;
+}
+
+:root .header__rec {
+  display: none;
 }
