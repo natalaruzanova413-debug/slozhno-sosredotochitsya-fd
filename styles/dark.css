@@ -1,8 +1,4 @@
-@media (prefers-color-scheme: dark) {
- :root.theme-auto {
-  --text-font: 'IBM Plex Mono', monospace;
-  --regular-font-weight: 400;
-  --bold-font-weight: 700;
+:root {
   --cover-image: url('../images/cover-image-dark.png');
   --bg-color: #000028;
   --color-menu:#FF0070;
@@ -15,5 +11,6 @@
   --logo-shadow: 4px 4px 0 #FF0070;
   --accent-color-text-block:#FF0070;
   --color-text-block:#000028;
- }
+  --bg-color-content:#000028;
 }
+
