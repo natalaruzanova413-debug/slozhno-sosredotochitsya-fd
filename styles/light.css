@@ -35,12 +35,8 @@
     --color-text-block: #353430;
     --bg-color-content: #fff1f7;
   }
-}
-
-:root.theme-auto {
-  @media (prefers-color-scheme: light) {
-    .header__rec {
+      .header__rec {
       display: none;
     }
   }
-}
+
