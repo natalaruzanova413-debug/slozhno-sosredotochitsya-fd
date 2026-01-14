@@ -309,17 +309,6 @@
     margin-block-end: 0px;
   }
 
-  .decorated-zone::before {
-    inset-block-start: 10px;
-    inset-inline-end: 10px;
-  }
-
-  .decorated-zone::after {
-    inset-block-start: auto;
-    inset-block-end: 10px;
-    inset-inline-start: 10px;
-  }
-
   .text-card__title {
     max-width: 728px;
   }
