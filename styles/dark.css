@@ -12,5 +12,7 @@
   --accent-color-text-block:#FF0070;
   --color-text-block:#000028;
   --bg-color-content:#000028;
+  --link-shadow: 2px 1px 0 #FF0070;
+  --border-link:#f1b2ce;
 }
 

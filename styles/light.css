@@ -12,6 +12,8 @@
   --accent-color-text-block: #ff8dcb;
   --color-text-block: #353430;
   --bg-color-content: #fff1f7;
+  --link-shadow: 1px 1px 0 #FF0070;
+  --border-link:#353430;
 }
 
 :root.theme-light .header__rec {
@@ -34,6 +36,9 @@
     --accent-color-text-block: #ff8dcb;
     --color-text-block: #353430;
     --bg-color-content: #fff1f7;
+    --color-text-block: #353430;
+    --link-shadow: 1px 1px 0 #FF0070;
+    --border-link:#353430;
   }
       .header__rec {
       display: none;
