@@ -1,39 +1,39 @@
 :root.theme-dark {
-  --cover-image: url('../images/cover-image-dark.png');
+  --cover-image: url("../images/cover-image-dark.png");
   --bg-color: #000028;
-  --color-menu: #FF0070;
+  --color-menu: #ff0070;
   --text-color: #f1b2ce;
-  --accent-color: #FF0070;
-  --title-color: #DB00FF;
-  --title-shadow-color: #FF8DCB;
-  --title-decor-bg: #FF0070;
+  --accent-color: #ff0070;
+  --title-color: #db00ff;
+  --title-shadow-color: #ff8dcb;
+  --title-decor-bg: #ff0070;
   --button-hover-border: rgba(255, 0, 112, 0.4);
-  --logo-shadow: 4px 4px 0 #FF0070;
-  --accent-color-text-block: #FF0070;
+  --logo-shadow: 4px 4px 0 #ff0070;
+  --accent-color-text-block: #ff0070;
   --color-text-block: #000028;
   --bg-color-content: #000028;
-  --link-shadow: 2px 1px 0 #FF0070;
+  --link-shadow: 2px 1px 0 #ff0070;
   --border-link: #f1b2ce;
-  --logo-shadow-footer:2px 2px 0 #FF0070;
+  --logo-shadow-footer: 2px 2px 0 #ff0070;
 }
 
 @media (prefers-color-scheme: dark) {
   :root.theme-auto {
-    --cover-image: url('../images/cover-image-dark.png');
+    --cover-image: url("../images/cover-image-dark.png");
     --bg-color: #000028;
-    --color-menu: #FF0070;
+    --color-menu: #ff0070;
     --text-color: #f1b2ce;
-    --accent-color: #FF0070;
-    --title-color: #DB00FF;
-    --title-shadow-color: #FF8DCB;
-    --title-decor-bg: #FF0070;
+    --accent-color: #ff0070;
+    --title-color: #db00ff;
+    --title-shadow-color: #ff8dcb;
+    --title-decor-bg: #ff0070;
     --button-hover-border: rgba(255, 0, 112, 0.4);
-    --logo-shadow: 4px 4px 0 #FF0070;
-    --accent-color-text-block: #FF0070;
+    --logo-shadow: 4px 4px 0 #ff0070;
+    --accent-color-text-block: #ff0070;
     --color-text-block: #000028;
     --bg-color-content: #000028;
-    --link-shadow: 2px 1px 0 #FF0070;
+    --link-shadow: 2px 1px 0 #ff0070;
     --border-link: #f1b2ce;
-    --logo-shadow-footer:2px 2px 0 #FF0070;
+    --logo-shadow-footer: 2px 2px 0 #ff0070;
   }
 }

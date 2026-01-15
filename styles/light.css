@@ -12,7 +12,7 @@
   --accent-color-text-block: #ff8dcb;
   --color-text-block: #353430;
   --bg-color-content: #fff1f7;
-  --link-shadow: 1px 1px 0 #FF0070;
+  --link-shadow: 1px 1px 0 #ff0070;
   --border-link: #353430;
 }
 
@@ -35,15 +35,12 @@
     --accent-color-text-block: #ff8dcb;
     --color-text-block: #353430;
     --bg-color-content: #fff1f7;
-    --link-shadow: 1px 1px 0 #FF0070;
+    --link-shadow: 1px 1px 0 #ff0070;
     --border-link: #353430;
-    --logo-shadow-footer:2px 2px 0 #ff8dcb;
+    --logo-shadow-footer: 2px 2px 0 #ff8dcb;
   }
-  
+
   :root.theme-auto .header__rec {
     display: none;
   }
 }
-
-
-

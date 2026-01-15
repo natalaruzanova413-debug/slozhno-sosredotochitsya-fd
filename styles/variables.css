@@ -1,8 +1,7 @@
 :root {
---text-font: 'IBM Plex Mono', monospace;
---regular-font-weight: 400;
---bold-font-weight: 700;
---container-width: 355px;
---container-height: 648px;
+  --text-font: "IBM Plex Mono", monospace;
+  --regular-font-weight: 400;
+  --bold-font-weight: 700;
+  --container-width: 355px;
+  --container-height: 648px;
 }
-
