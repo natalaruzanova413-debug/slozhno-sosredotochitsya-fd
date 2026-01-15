@@ -13,16 +13,15 @@
   --color-text-block: #353430;
   --bg-color-content: #fff1f7;
   --link-shadow: 1px 1px 0 #FF0070;
-  --border-link:#353430;
+  --border-link: #353430;
 }
 
 :root.theme-light .header__rec {
   display: none;
 }
 
-
-:root.theme-auto {
-  @media (prefers-color-scheme: light) {
+@media (prefers-color-scheme: light) {
+  :root.theme-auto {
     --cover-image: url("../images/cover-image-light.png");
     --bg-color: #353430;
     --text-color: #353430;
@@ -36,12 +35,15 @@
     --accent-color-text-block: #ff8dcb;
     --color-text-block: #353430;
     --bg-color-content: #fff1f7;
-    --color-text-block: #353430;
     --link-shadow: 1px 1px 0 #FF0070;
-    --border-link:#353430;
+    --border-link: #353430;
+    --logo-shadow-footer:2px 2px 0 #ff8dcb;
   }
-      .header__rec {
-      display: none;
-    }
+  
+  :root.theme-auto .header__rec {
+    display: none;
   }
+}
+
+
 
