@@ -444,7 +444,6 @@
     min-block-size: 100vh;
     min-height: 768px;
     max-inline-size: 1024px;
-    min-block-size: 768px;
   }
 
   .footer {
