@@ -517,7 +517,7 @@
   .section-why .content-section__title {
     grid-column: 1;
     max-inline-size: 315px;
-    margin-block-end: 18px;
+    margin-block-end: 19px;
   }
 
   .section-how {
