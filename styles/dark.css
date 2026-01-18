@@ -14,7 +14,8 @@
   --link-shadow: 2px 1px 0 #ff0070;
   --border-link: #f1b2ce;
   --logo-shadow-footer: 2px 2px 0 #ff0070;
-  --button-hover-border:1px solid rgba(255, 0, 112, 0.4);
+  --button-hover-border: 1px solid rgba(255, 0, 112, 0.4);
+  --rec-display: block;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -27,7 +28,6 @@
     --title-color: #db00ff;
     --title-shadow-color: #ff8dcb;
     --title-decor-bg: #ff0070;
-    --button-hover-border: rgba(255, 0, 112, 0.4);
     --logo-shadow: 4px 4px 0 #ff0070;
     --accent-color-text-block: #ff0070;
     --color-text-block: #000028;
@@ -36,5 +36,6 @@
     --border-link: #f1b2ce;
     --logo-shadow-footer: 2px 2px 0 #ff0070;
     --button-hover-border: 1px solid rgba(255, 0, 112, 0.4);
+    --rec-display: block;
   }
 }
